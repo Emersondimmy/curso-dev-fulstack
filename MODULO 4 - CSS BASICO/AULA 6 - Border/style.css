@@ -1,0 +1,16 @@
+body{
+   background-color: wheat;
+}
+p {
+    color: #222222;
+}
+
+.foto-principal{
+    width: 200px;
+   /* border: 5px double black;    *dessa forma eu coloco todas as informações de borda em um unico lugar, mas também posso colocar separado, como mostrarei a seguir, na ordem que tem que ser. e dessa forma anterior chama de shorthand */
+    border-width: 2px; /* espessura da borda*/
+    border-style: double; /* tipo da borda*/
+    border-color: black; /* cor da borda*/
+    border-radius: 50% ;
+    
+}

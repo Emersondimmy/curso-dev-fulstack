@@ -1,0 +1,11 @@
+body{
+    background-image: url(fundoo.jpg);
+    background-repeat: no-repeat;
+    /*background-position: 100% 10%; dessa forma fica em porcentagem a posição*/
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+p {
+    color: #222222;
+}
