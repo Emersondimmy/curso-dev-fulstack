@@ -1,0 +1,28 @@
+
+.exemplo1 .red{
+    color: red;
+}
+.exemplo1 .blue{
+    color: blue;
+}
+
+
+h1, h2, h3, h4{
+    color: green;
+}
+.exemplo2 > p{
+    color: blue;
+}
+
+.exemplo{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+.exemplo3 + p{
+    color: red;
+}
+
+.exemplo4 ~ p{
+    color: green;
+}

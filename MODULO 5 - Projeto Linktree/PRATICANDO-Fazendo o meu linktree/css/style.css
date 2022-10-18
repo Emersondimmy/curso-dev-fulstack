@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    background: rgb(137,54,204);
+    background: linear-gradient(111deg, rgba(137,54,204,1) 22%, rgb(44, 113, 150) 74%);
+    background-repeat: repeat-x;
+}
+
+.perfil{
+    width: 150px;
+    border-radius: 50%;
+    border: 5px double white;
+    box-shadow: 0 0 110px rgb(36, 194, 139);
+    margin-top: 20px;
+}
+.profile{
+    text-align: center;
+}
+h1{
+    margin-bottom: 5px;
+    color: white; 
+}
+
+h2{
+color: white;
+
+}
+.links-redes{
+    list-style: none;
+}
+.links-redes li{
+    margin: 20px 20px;
+}
+.links-redes li a{
+    display: block;
+    background: rgba(190, 92, 209, 0.471);
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid white;
+    
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    list-style-position: inside;
+}
+
+.avatar{
+    width: 20px;
+    border: 2px solid rgb(20, 13, 13);
+    border-radius: 50%;
+}
+.rodape{
+    text-align: center;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,19 @@
+
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/849/553/original/modern-gold-background-free-vector.jpg);
+}
+
+ul{
+    background: gray;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.3;
+    
+}
+
+
+ul li{
+    display: inline;
+    margin: 20px;
+    
+}
