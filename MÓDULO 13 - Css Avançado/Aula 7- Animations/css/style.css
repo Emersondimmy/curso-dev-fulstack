@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 100px;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-image: url(https://w0.peakpx.com/wallpaper/258/487/HD-wallpaper-paisagem-maravilhosa-arvores-natureza-outono-rio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding: 20px;
+   
+    animation-name: minhaAnimacao;
+    animation-duration: 1000ms;
+    animation-iteration-count:infinite;
+    animation-delay: 5000ms;
+    animation-direction:alternate-reverse
+}
+
+
+@keyframes minhaAnimacao{
+    0%{
+        background-color: yellow;
+
+    }
+    
+
+    50%{
+        border: 20px solid green;
+        box-shadow: 0 0 120px black;
+    }
+
+
+    100%{
+        box-shadow: 0 0 50px black;
+        border: 1px solid green;
+        background-color: rgb(247, 5, 45);
+        
+    }
+}

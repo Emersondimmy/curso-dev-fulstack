@@ -1,0 +1,41 @@
+.container {
+    width: 50vw;
+    height: 100vh;
+  }
+  
+  .box {
+    width: 200px;
+    height: 200px;
+    transition-duration: 2s;
+    transition-property: width;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .container:hover .box {
+    width: 600px;
+  }
+  
+  .one {
+    background: #f44809;
+    transition-timing-function: linear;
+  }
+  
+  .two {
+    background: #0514ec;
+    transition-timing-function: ease-in;
+  }
+  
+  .three {
+    background: #b8ef06;
+    transition-timing-function: ease-out;
+  }
+  
+  .four {
+    background: #de0bb4;
+    transition-timing-function: ease-in-out;
+  }
+  
+  

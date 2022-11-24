@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 100px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    transition-duration: 500ms;
+    color: white;
+    padding: 20px;
+    transform-origin: 90% 20%;
+    
+}
+
+.box:hover{
+    background-color: red;
+    box-shadow: 0 0 200px black;
+    transform: rotate(360deg);
+}
